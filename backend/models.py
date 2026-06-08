@@ -25,7 +25,7 @@ class Products(Base):
     category_id= Column(Integer, ForeignKey("categories.id"))
     created_at= Column(DateTime, default=datetime.utcnow)
 
-class stock_movements(Base):
+class Stock_movements(Base):
     __tablename__ = "stock_movements"
     id= Column(Integer, primary_key=True, index=True)
     product_id= Column(Integer, ForeignKey("products.id"))

@@ -14,9 +14,13 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-from routers import auth
+from routers import auth, categories, products, stock, dashboard
 app.include_router(auth.router, prefix="/auth", tags=["auth"])
+app.include_router(categories.router, prefix="/categories", tags=["categories"])
+app.include_router(products.router, prefix="/products", tags=["products"])
+app.include_router(stock.router, prefix="/stock", tags=["stock"])
+app.include_router(dashboard.router, prefix="/dashboard", tags=["dashboard"])
 
 @app.get("/")
 def root():
-    return {"message": "Hello World"}
+    return {"message": "Inventory API Running"}
