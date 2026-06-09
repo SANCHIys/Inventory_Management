@@ -7,8 +7,8 @@
 - **Auth**: JWT (python-jose, bcrypt)
 
 ## Live Demo
-- Frontend: https://your-app.vercel.app
-- Backend API: https://your-app.up.railway.app
+- Frontend: 
+- Backend API: inventorymanagement-production-81ba.up.railway.app
 
 ## Setup
 
