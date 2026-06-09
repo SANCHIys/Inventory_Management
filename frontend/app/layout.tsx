@@ -31,7 +31,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         {!isAuth && (
           <nav className="navbar">
-            <span className="nav-brand">⬡ Inventory</span>
             <div className="nav-links">
               {NAV.map((n) => (
                 <Link key={n.href} href={n.href} className={`nav-link${pathname === n.href ? " active" : ""}`}>
