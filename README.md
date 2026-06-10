@@ -7,7 +7,7 @@
 - **Auth**: JWT (python-jose, bcrypt)
 
 ## Live Demo
-- Frontend: 
+- Frontend: https://inventory-management-git-main-sanchi-sharma-s-projects.vercel.app/ 
 - Backend API: inventorymanagement-production-81ba.up.railway.app
 
 ## Setup
